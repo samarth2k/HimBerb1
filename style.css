@@ -172,10 +172,10 @@ input:-webkit-autofill:focus {
 
 .overlay:before,
 .sky-bg {
-    background: #B4f7fd;
-    background: -webkit-gradient(linear, left top, left bottom, from(#B4f7fd), to(#fce181));
-    background: linear-gradient(to bottom, #B4f7fd 0%, #fce181 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B4f7fd', endColorstr='#fce181', GradientType=0);
+    background: #50edfb;
+    background: -webkit-gradient(linear, left top, left bottom, from(#50edfb), to(#fce181));
+    background: linear-gradient(to bottom, #50edfb 0%, #fce181 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50edfb', endColorstr='#fce181', GradientType=0);
     color: #ffffff;
 }
 
