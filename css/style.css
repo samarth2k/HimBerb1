@@ -1,0 +1,11 @@
+.blog_part {
+    position: relative;
+    padding: 0 0 140px;
+    background: url(../img/blog/blog_bg.png);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: content;
+}
