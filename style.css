@@ -172,10 +172,10 @@ input:-webkit-autofill:focus {
 
 .overlay:before,
 .sky-bg {
-    background: #05e5fa;
-    background: -webkit-gradient(linear, left top, left bottom, from(#05e5fa), to(#fce181));
-    background: linear-gradient(to bottom, #05e5fa 0%, #fce181 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05e5fa', endColorstr='#fce181', GradientType=0);
+    background: #a9efdb;
+    background: -webkit-gradient(linear, left top, left bottom, from(#a9efdb), to(#fce181));
+    background: linear-gradient(to bottom, #a9efdb 0%, #fce181 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9efdb', endColorstr='#fce181', GradientType=0);
     color: #ffffff;
 }
 
@@ -365,7 +365,7 @@ input:-webkit-autofill:focus {
 }
 
 .mainmenu-area.affix {
-    background-color: #04b8c8;
+    background-color: #026670;
 }
 
 
