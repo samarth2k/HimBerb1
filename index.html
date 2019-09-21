@@ -150,8 +150,17 @@
                             <img src="images/sp1.png" alt="">
                         </div>
                         <h3 class="txt-green">Wild Harvestation</h3>
-                        <p>A test of resilience to obtain maximum potency.<br><span id="rm1"  class="txt-green" style="cursor: pointer;">Read More..</span></p>
-						<p id="rmv1" style="display:none;">dfd fd d fdf df df df d fdf f df d fd fd fd fd fd fd fd fd fd fd f df df df d fd fd f</p>
+                        <p>A test of resilience to obtain maximum potency.
+						<span id="rm1"  class="txt-green" style="cursor: pointer;"><br>Read More..</span>
+						<span id="rmv1" style="display:none;">
+							dfd fd d fdf df df df d fdf f df d fd fd fd fd fd fd fd fd fd fd f df df df d fd fd f
+							dfd fd d fdf df df df d fdf f df d fd fd fd fd fd fd fd fd fd fd f df df df d fd fd f
+							dfd fd d fdf df df df d fdf f df d fd fd fd fd fd fd fd fd fd fd f df df df d fd fd f
+							dfd fd d fdf df df df d fdf f df d fd fd fd fd fd fd fd fd fd fd f df df df d fd fd f
+							dfd fd d fdf df df df d fdf f df d fd fd fd fd fd fd fd fd fd fd f df df df d fd fd f
+						<span>
+						</p>
+						<p id="rl1" class="txt-green" style="display:none; cursor: pointer;text-align: right;">Read Less</p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -160,8 +169,18 @@
                             <img src="images/sp2.png" alt="">
                         </div>
                         <h3 class="txt-green">Aqueous Extraction</h3>
-                        <p>Complete avoidance of any organic/chemical solvent.<br><span id="rm2"  class="txt-green" style="cursor: pointer;">Read More..</span></p>
-						<p id="rmv2" style="display:none;">dfd fd d fdf df df df d fdf f df d fd fd fd fd fd fd fd fd fd fd f df df df d fd fd f</p>
+                        <p>Complete avoidance of any organic/chemical solvent.
+						<span id="rm2"  class="txt-green" style="cursor: pointer;"><br>Read More..</span>
+						<span id="rmv2" style="display:none;">
+							dfd fd d fdf df df df d fdf f df d fd fd fd fd fd fd fd fd fd fd f df df df d fd fd f
+							dfd fd d fdf df df df d fdf f df d fd fd fd fd fd fd fd fd fd fd f df df df d fd fd f
+							dfd fd d fdf df df df d fdf f df d fd fd fd fd fd fd fd fd fd fd f df df df d fd fd f
+							dfd fd d fdf df df df d fdf f df d fd fd fd fd fd fd fd fd fd fd f df df df d fd fd f
+							dfd fd d fdf df df df d fdf f df d fd fd fd fd fd fd fd fd fd fd f df df df d fd fd f
+						<span>
+						</p>						
+						<p id="rl2" class="txt-green" style="display:none; cursor: pointer;text-align: right;">Read Less</p>
+						
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -170,8 +189,17 @@
                             <img src="images/sp3.png" alt="">
                         </div>
                         <h3 class="txt-green">Bio-Available</h3>
-                        <p>A rare case of full absorbtion by the human body.<br><span id="rm3"  class="txt-green" style="cursor: pointer;">Read More..</span></p>
-						<p id="rmv3" style="display:none;">dfd fd d fdf df df df d fdf f df d fd fd fd fd fd fd fd fd fd fd f df df df d fd fd f</p>
+                        <p>A rare case of full absorbtion by the human body.
+						<span id="rm3"  class="txt-green" style="cursor: pointer;"><br>Read More..</span>
+						<span id="rmv3" style="display:none;">
+							dfd fd d fdf df df df d fdf f df d fd fd fd fd fd fd fd fd fd fd f df df df d fd fd f
+							dfd fd d fdf df df df d fdf f df d fd fd fd fd fd fd fd fd fd fd f df df df d fd fd f
+							dfd fd d fdf df df df d fdf f df d fd fd fd fd fd fd fd fd fd fd f df df df d fd fd f
+							dfd fd d fdf df df df d fdf f df d fd fd fd fd fd fd fd fd fd fd f df df df d fd fd f
+							dfd fd d fdf df df df d fdf f df d fd fd fd fd fd fd fd fd fd fd f df df df d fd fd f
+						<span>
+						</p>
+						<p id="rl3" class="txt-green" style="display:none; cursor: pointer;text-align: right;">Read Less</p>
                     </div>
                 </div>
                
@@ -749,7 +777,7 @@
 
     <footer class="footer-area relative sky-bg-f" id="contact-page">
         <div class="absolute footer-bg"></div>
-        <!--
+        
 		<div class="footer-top">
             <div class="container">
                 <div class="row">
@@ -802,7 +830,7 @@
                     </div>
                 </div>
             </div>
-        </div>-->
+        </div>
         <div class="footer-middle">
             <div class="container">
                 <div class="row">
@@ -853,14 +881,37 @@
 	<script>
 		$(document).ready(function(){
 			$("#rm1").click(function(){			
-			  $("#rmv1").toggle();
+			  $("#rmv1").show();
+			  $("#rl1").show();
+			  $("#rm1").hide();
 			});
 			$("#rm2").click(function(){			
-			  $("#rmv2").toggle();
+			  $("#rmv2").show();
+			  $("#rl2").show();
+			  $("#rm2").hide();
 			});
 			$("#rm3").click(function(){			
-			  $("#rmv3").toggle();
-			}); 
+			  $("#rmv3").show();
+			  $("#rl3").show();
+			  $("#rm3").hide();
+			});
+			
+			$("#rl1").click(function(){			
+			  $("#rm1").show();
+			  $("#rl1").hide();			 
+			  $("#rmv1").hide();			 
+			});
+			$("#rl2").click(function(){			
+			  $("#rm2").show();
+			  $("#rl2").hide();			 
+			  $("#rmv2").hide();			 
+			});
+			$("#rl3").click(function(){			
+			  $("#rm3").show();
+			  $("#rl3").hide();			 
+			  $("#rmv3").hide();			 
+			});
+			
 		});
 		
 	</script>
