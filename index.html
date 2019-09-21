@@ -307,7 +307,8 @@
                             <img src="images/sp4.png" alt="">
                         </div>
                         <h3 class="txt-green">GMP</h3>
-                        <p>Comply with global standards and state GMP while adhering to ICHQ7.</p>
+                        <p>Comply with global standards and state GMP while adhering to ICHQ7.  <br><span id="rm1"  class="txt-green" style="cursor: pointer;">Read More..</span></p>
+						<p id="rmv1" style="display:none;">dfd fd d fdf df df df d fdf f df d fd fd fd fd fd fd fd fd fd fd f df df df d fd fd f</p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -316,8 +317,9 @@
                             <img src="images/sp5.png" alt="">
                         </div>
                         <h3 class="txt-green">ISI100500:91</h3>
-                        <p>End to end screening by Bureau of Indian Standards for potability of water.</p>
-                    </div>
+                        <p>End to end screening by Bureau of Indian Standards for potability of water. <br><span id="rm2"  class="txt-green" style="cursor: pointer;">Read More..</span></p>
+						<p id="rmv2" style="display:none;">dfd fd d fdf df df df d fdf f df d fd fd fd fd fd fd fd fd fd fd f df df df d fd fd f</p>
+					</div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="box">
@@ -325,12 +327,14 @@
                             <img src="images/sp6.png" alt="">
                         </div>
                         <h3 class="txt-green">PMDA, Japan</h3>
-                        <p>Peroidic auditing of quality and safety data by Ministry of Health, Japan. </p>
+                        <p>Peroidic auditing of quality and safety data by Ministry of Health, Japan. <br><span id="rm3"  class="txt-green" style="cursor: pointer;">Read More..</span></p>
+						<p id="rmv3" style="display:none;">dfd fd d fdf df df df d fdf f df d fd fd fd fd fd fd fd fd fd fd f df df df d fd fd f</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+	
 	
     <!--
 	<section class="price-area overlay section-padding" id="price-page">
@@ -554,6 +558,8 @@
                 </div>
             </div>
             <div class="row">
+				<div class="testimonials">
+				<div class="testimonial">
                 <div class="col-md-4 col-xs-12">
                    <div class="blog-entry">
 					  <a href="#" class="block-20" style="background-image: url('images/n1.jpg');">
@@ -562,8 +568,8 @@
 						</div>
 					  </a>				  
 					</div>
-                </div>
-				 <div class="col-md-4 col-xs-12">
+                </div>				
+				<div class="col-md-4 col-xs-12">
                    <div class="blog-entry">
 					  <a href="#" class="block-20" style="background-image: url('images/n2.jpg');">
 						  <div class="text">
@@ -572,7 +578,7 @@
 					  </a>				  
 					</div>
                 </div>
-				 <div class="col-md-4 col-xs-12">
+				<div class="col-md-4 col-xs-12">
                    <div class="blog-entry">
 					  <a href="#" class="block-20" style="background-image: url('images/n3.jpg');">
 						  <div class="text">
@@ -580,6 +586,38 @@
 						</div>
 					  </a>				  
 					</div>
+                </div>
+                </div>
+				<div class="testimonial">
+                <div class="col-md-4 col-xs-12">
+                   <div class="blog-entry">
+					  <a href="#" class="block-20" style="background-image: url('images/n1.jpg');">
+						  <div class="text">
+							<h2>PCOS and Berberine:What Women Should Know</h2>							
+						</div>
+					  </a>				  
+					</div>
+                </div>				
+				<div class="col-md-4 col-xs-12">
+                   <div class="blog-entry">
+					  <a href="#" class="block-20" style="background-image: url('images/n2.jpg');">
+						  <div class="text">
+							<h2>Berberine in Diabetes</h2>							
+						</div>
+					  </a>				  
+					</div>
+                </div>
+				<div class="col-md-4 col-xs-12">
+                   <div class="blog-entry">
+					  <a href="#" class="block-20" style="background-image: url('images/n3.jpg');">
+						  <div class="text">
+							<h2>4 Natural Supplements that are as Powerful as Drugs</h2>							
+						</div>
+					  </a>				  
+					</div>
+                </div>
+                </div>
+				
                 </div>
 				
             </div>
@@ -812,7 +850,20 @@
     <!--Main-active-JS-->
     <script src="js/main.js"></script>
     
-	
+	<script>
+		$(document).ready(function(){
+			$("#rm1").click(function(){			
+			  $("#rmv1").toggle();
+			});
+			$("#rm2").click(function(){			
+			  $("#rmv2").toggle();
+			});
+			$("#rm3").click(function(){			
+			  $("#rmv3").toggle();
+			}); 
+		});
+		
+	</script>
 	
 </body>
 
