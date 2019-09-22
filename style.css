@@ -1039,3 +1039,13 @@ margin-bottom: 20px;
 .txt-green{
 	color:#026670;
 }
+
+.owl-stage-outer{
+	height: 300px;
+}
+.owl-stage{
+	width:6000px!important;
+}
+.owl-item{
+	width:370px!important;
+}
