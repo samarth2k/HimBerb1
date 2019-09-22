@@ -145,7 +145,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="box">
+                    <div class="box" id="rmh1">
                         <div class="box-icon">
                             <img src="images/sp1.png" alt="">
                         </div>
@@ -164,7 +164,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="box">
+                    <div class="box" id="rmh2">
                         <div class="box-icon">
                             <img src="images/sp2.png" alt="">
                         </div>
@@ -184,7 +184,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="box">
+                    <div class="box" id="rmh3">
                         <div class="box-icon">
                             <img src="images/sp3.png" alt="">
                         </div>
@@ -911,6 +911,40 @@
 			  $("#rl3").hide();			 
 			  $("#rmv3").hide();			 
 			});
+			
+			
+			$("#rmh1").mouseover(function(){
+				$("#rmv1").show();
+				$("#rl1").show();
+				$("#rm1").hide();
+			});
+			
+			$("#rmh1").mouseout(function(){
+				$("#rm1").show();
+				$("#rl1").hide();			 
+				$("#rmv1").hide();	
+			});
+			$("#rmh2").mouseover(function(){
+				$("#rmv2").show();
+				$("#rl2").show();
+				$("#rm2").hide();
+			});			
+			$("#rmh2").mouseout(function(){
+				$("#rm2").show();
+				$("#rl2").hide();			 
+				$("#rmv2").hide();	
+			});
+			$("#rmh3").mouseover(function(){
+				$("#rmv3").show();
+				$("#rl3").show();
+				$("#rm3").hide();
+			});			
+			$("#rmh3").mouseout(function(){
+				$("#rm3").show();
+				$("#rl3").hide();			 
+				$("#rmv3").hide();	
+			});
+			
 			
 		});
 		
