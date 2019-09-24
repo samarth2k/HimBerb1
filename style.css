@@ -1039,4 +1039,12 @@ margin-bottom: 20px;
 .txt-green{
 	color:#026670;
 }
-
+.ccc{
+	height:376px;
+	object-fit: contain;
+    overflow: hidden;   
+    vertical-align: middle;
+    border: 0 none;
+    width: auto;
+	margin: auto;
+}
