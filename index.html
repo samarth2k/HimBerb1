@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>	
-	<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="css/news-carousel.css">
     <!--[if lt IE 9]>
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -94,7 +94,7 @@
                     <h2>Purest <span class="txt-yellow">Berberine</span> supplement from wildcrafted roots, since 1968.</h2>
                     <p>A natural solution to better blood sugar management and better being.</p>                    
 					<button type="button" class="button white" data-toggle="modal" data-target="#myModal">Ask for a sample!</button>
-					<button type="button" class="button white" data-toggle="modal" data-target="#myModal2">Download COA</button>
+					<button type="button" class="button white" data-toggle="modal" data-target="#myModal2">Ask for COA</button>
 
                 </div>
                 <div class="col-md-5 text-right">
@@ -114,9 +114,10 @@
          <!-- <button type="button" class="close" data-dismiss="modal">&times;</button>-->
           <h4 class="modal-title">Ask for a sample!</h4>
         </div>
-		<form action="ASprocess.php" id="as-form" method="post" class="">
+		<form action="https://formspree.io/Samarth.vikram.singh@gmail.com" id="as-form" method="post" class="">
         <div class="modal-body">
           <div class="form-double">
+            <input type="hidden" name="Purpose" value="Ask for a sample" />
 		  <input type="text" id="as-name" name="as-name" placeholder="Name*" class="form-control" required="required">
 		  <input type="text" id="as-organisation" name="as-organisation" placeholder="Organisation Name*" class="form-control" required="required">
 		 </div>
@@ -152,9 +153,10 @@
           <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
           <h4 class="modal-title">Download COA</h4>
         </div>
-		<form action="coaprocess.php" id="coa-form" method="post" class="">
+		<form action="https://formspree.io/Samarth.vikram.singh@gmail.com" id="coa-form" method="post" class="">
         <div class="modal-body">
           <div class="form-double">
+            <input type="hidden" name="Purpose" value="Ask for COA" />
 		  <input type="text" id="coa-name" name="coa-name" placeholder="Name*" class="form-control" required="required">
 		  <input type="text" id="coa-organisation" name="coa-organisation" placeholder="Organisation Name*" class="form-control" required="required">
 		 </div>
@@ -844,7 +846,7 @@ India</p>
                         </address>
                     </div>
                     <div class="col-xs-12 col-md-8">
-                        <form action="https://formspree.io/Samarth.vikram.singh@gmail.com"  id="contact-form" method="post" class="contact-form">
+                        <form action="https://formspree.io/Samarth.vikram.singh@gmail.com"  id="contact-form" method="post" target="_blank" class="contact-form">
                             <div class="form-double">
                                 <input type="text" id="form-name" name="form-name" placeholder="Your name" class="form-control" required="required">
                                 <input type="email" id="form-email" name="form-email" class="form-control" placeholder="E-mail address" required="required">
