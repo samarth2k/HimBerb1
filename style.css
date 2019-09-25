@@ -280,7 +280,7 @@ input:-webkit-autofill:focus {
 }
 
 .box .box-icon {
-    height: 160px;
+   /* height: 160px;*/
     margin-bottom: 20px;
 }
 
@@ -1047,4 +1047,8 @@ margin-bottom: 20px;
     border: 0 none;
     width: auto;
 	margin: auto;
+}
+.aaa{
+	height:200px;	
+    overflow: hidden;    
 }
