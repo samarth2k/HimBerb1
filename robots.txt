@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Allow: /ads/preferences/
+
+Sitemap: https://himaberb.com/sitemap.xml
