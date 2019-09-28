@@ -1052,9 +1052,9 @@ margin-bottom: 20px;
 	height:200px;	
     overflow: hidden;    
 }
-.col7{
+.col-md-7{
 	width: 58.33333333%;
 }
-.col5{
+.col-md-5{
 	width: 41.66666667%;
 }
