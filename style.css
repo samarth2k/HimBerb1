@@ -1052,9 +1052,11 @@ margin-bottom: 20px;
 	height:200px;	
     overflow: hidden;    
 }
-.col-md-7{	
+.col-md-7{
+	width: 58%;
 	float:left;
 }
-.col-md-5{	
+.col-md-5{
+	width: 41%;
 	float:left;
 }
