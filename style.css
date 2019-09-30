@@ -1054,7 +1054,9 @@ margin-bottom: 20px;
 }
 .col-md-7{
 	width: 58.33333333%;
+	float:left;
 }
 .col-md-5{
 	width: 41.66666667%;
+	float:left;
 }
